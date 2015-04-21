@@ -1,6 +1,6 @@
 /* CSS Styles */
 @charset "utf-8";
-/*@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);*/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Lato', 'Helvetica Neue', Verdana, Geneva, sans-serif; }
 
@@ -36,7 +36,6 @@ main h1 { text-align: center; line-height: 1.385; color: #FFF; font-size: 40px; 
 #skills ul { list-style: none; padding-left: 0; width: 100%; }
 #skills ul.skills { padding-top: 0px; margin-top: 0; }
 #skills ul.skills li { line-height: 50px; }
-/* TODO: Pridaj nejaky font na light base pre li strong nasledujuci; */
 #skills ul.skills li strong { font-size: 22px; font-weight: 300; }
 #skills ul.skills li span { display: block; line-height: 14px; color: #a1a1a1; font-size: 14px; font-weight: bold; }
 #skills h4 { font-size: 36px; margin-top: 0; margin-bottom: 0; padding-bottom: 10px; color: #494949; font-weight: normal; }
@@ -59,7 +58,6 @@ main h1 { text-align: center; line-height: 1.385; color: #FFF; font-size: 40px; 
 #bring ul { padding-left: 0; list-style: none; }
 #bring ul li { padding-left: 40px; margin-bottom: 22px; line-height: 1.5em; color: #e9eff4; font-size: 20px; }
 #bring ul li:before { content: '\f00c'; color: #e9eff4; font-family: FontAwesome; display: inline-block; width: 40px; margin-left: -40px; }
-/* TODO: Pridaj nejaky font na semilight */
 
 #recommendations ul { list-style: none; padding-left: 0; }
 #recommendations ul li { display: block; margin-bottom: 30px; }
@@ -70,7 +68,6 @@ main h1 { text-align: center; line-height: 1.385; color: #FFF; font-size: 40px; 
 
 #cv { background: #6b9f7d; }
 #cv h2 { color: #FFF; margin-bottom: 1em; }
-/* TODO: Add semibold font */
 #cv a.btn { display: block; margin: 0 auto; text-align: center; white-space: normal; font-size: 18px; padding: 1.7em 0 1.8em 0; font-weight: 500; background: #eff7f3; color: #345c45; border-radius: 5px; text-transform: uppercase; }
 #cv a.btn:hover { background: #FFF; }
 #cv span { display: block; margin-bottom: 3em; text-align: center; color: #99d0ac; font-size: 12px; padding-top: .8em; }
