@@ -12,7 +12,7 @@ header p.darker { color: #3f3f3f; }
 header p a { color: #525252; }
 header p a:hover,
 header p a:focus { color: #444; }
-header div.me { padding-top: 30px; }
+header div.me { padding-top: 30px; height: 100%; right: 0; }
 header div.me img { max-width: 100%; height: auto; }
 
 header p,
@@ -150,8 +150,10 @@ main h1 { text-align: center; line-height: 1.385; color: #FFF; font-size: 40px; 
 #subscribe form strong { font-weight: bold; }
 #subscribe #mce-responses { color: #FFF; }
 
-@media (min-width : 768px) and (max-width: 1200px) { 
-	div.me { position: absolute; bottom: 0; right: 0; }
+@media (min-width : 768px) { 
+	div.me img { position: absolute; bottom: 0; right: 0; }
+	div.row.meRow { position: relative }
+	header div.me { position: absolute }
 }
 
 /* Mobile devices */
