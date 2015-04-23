@@ -7,7 +7,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 header { background: url(../img/intro-bg.png) no-repeat center center; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 header strong { font-weight: 900; display: block; color: #646464; font-family: 'Lato', 'Helvetica Neue', sans-serif; font-size: 120px; padding-top: 90px; }
 header strong span { color: #eb4450; font-weight: 900; font-size: 86px; position: relative; top: -50px; margin-right: 5px; }
-header p { color: #646464; font-size: 40px; margin-bottom: 1.5em; }
+header p { color: #646464; font-size: 40px; margin-bottom: 1.5em; margin-top: 0.3em; }
 header p.darker { color: #3f3f3f; }
 header p a { color: #525252; }
 header p a:hover,
@@ -64,7 +64,7 @@ main h1 { text-align: center; line-height: 1.385; color: #FFF; font-size: 40px; 
 #recommendations ul li img { float: left; padding-top: 10px; }
 #recommendations ul li cite { display: block; margin-left: 160px; margin-bottom: 10px; color: #5b5b5b; font-style: normal; font-size: 18px; }
 #recommendations ul li strong {  }
-#recommendations ul li q { display: block; margin-left: 160px; border-left: none; font-size: 16px; color: #5b5b5b; line-height: 30px; }  
+#recommendations ul li q { display: block; margin-left: 160px; border-left: none; font-size: 18px; color: #5b5b5b; line-height: 30px; }  
 
 #cv { background: #6b9f7d; }
 #cv h2 { color: #FFF; margin-bottom: 1em; }
@@ -148,6 +148,7 @@ main h1 { text-align: center; line-height: 1.385; color: #FFF; font-size: 40px; 
 #subscribe form input[type=submit]:hover { color: #FFF; }
 #subscribe form small { display: block; padding-top: 5px; font-size: 12px; color: #929292; }
 #subscribe form strong { font-weight: bold; }
+#subscribe #mce-responses { color: #FFF; }
 
 @media (min-width : 768px) and (max-width: 1200px) { 
 	div.me { position: absolute; bottom: 0; right: 0; }
