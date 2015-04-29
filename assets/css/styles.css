@@ -4,7 +4,7 @@
 
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Lato', 'Helvetica Neue', Verdana, Geneva, sans-serif; }
 
-header { background: url(../img/intro-bg.png) no-repeat center center; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+header { background: url(../img/intro-bg.jpg) no-repeat center center; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 header strong { font-weight: 900; display: block; color: #646464; font-family: 'Lato', 'Helvetica Neue', sans-serif; font-size: 120px; padding-top: 65px; }
 header strong span { color: #eb4450; font-weight: 900; font-size: 86px; position: relative; top: -50px; margin-right: 5px; }
 header p { color: #646464; font-size: 40px; margin-bottom: 1.5em; margin-top: 0.3em; }
