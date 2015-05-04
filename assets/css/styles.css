@@ -133,6 +133,7 @@ main h1 { text-align: center; line-height: 1.385; color: #FFF; font-size: 40px; 
 #cta a.btn:hover strong { color: #FFF; }
 #cta p { text-transform: uppercase; font-size: 14px; color: #939393; padding-top: 50px; }
 #cta p strong { text-transform: uppercase; font-size: 14px; color: #bebebe; }
+#cta .fb-like { margin-left: 15px; }
 #cta .fb-like,
 #cta .twitter-share-button { float: right; }
 
