@@ -73,6 +73,8 @@ main h1 { text-align: center; line-height: 1.385; color: #FFF; font-size: 40px; 
 #cv span { display: block; margin-bottom: 3em; text-align: center; color: #99d0ac; font-size: 12px; padding-top: .8em; }
 
 #projects h3 { font-size: 30px; text-align: center; padding-bottom: 20px; font-weight: 700; }
+#projects h3:hover { color: #555; }
+#projects article > * { text-decoration: none; color: #333; }
 
 #awards { background: #1abc9c; }
 #awards h2 { color: #FFF; padding-bottom: 1em; }
